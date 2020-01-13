@@ -47,13 +47,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-
-/*
-curl -X POST \
-    -H 'content-type:application/json' \
-    -d '{"name":"ResourceName7","context":"AnyContext7","location":"Asia/Jerusalem","ipRange":["62.219.131.0/12", "172.114.131.10/22"]}' \
-    http://localhost:3000/resources
- */
-/*
-curl -X GET http://localhost:3000/resources/:name
- */
